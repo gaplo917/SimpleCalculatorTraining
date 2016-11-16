@@ -25,6 +25,8 @@ public class SimpleCalculatorActivity extends AppCompatActivity {
   Button minusBtn;
   Button divideBtn;
   Button multiplyBtn;
+  Button clearBtn;
+  Button equalBtn;
   // ====================== DO NOT MODIFY END  ============================
 
   @Override
@@ -48,6 +50,8 @@ public class SimpleCalculatorActivity extends AppCompatActivity {
     minusBtn = (Button) findViewById(R.id.minusBtn);
     divideBtn = (Button) findViewById(R.id.divideBtn);
     multiplyBtn = (Button) findViewById(R.id.multiplyBtn);
+    clearBtn = (Button) findViewById(R.id.clearBtn);
+    equalBtn = (Button) findViewById(R.id.equalBtn);
     // ====================== DO NOT MODIFY END  ============================
 
     // Start writing your solution below this line
